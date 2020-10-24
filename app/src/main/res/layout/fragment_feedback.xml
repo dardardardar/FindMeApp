@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10pt"
+    android:paddingRight="10pt"
+    android:paddingBottom="5pt"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UMPAN BALIK ANDA MENGENAI APLIKASI KAMI"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorFont1"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bagaimana opini anda mengenai aplikasi kami?"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/opini_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:lines="2"
+        android:hint="Ketik opini anda disini"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/txtarea_style"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apa kritik anda untuk aplikasi kami?"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/kritik_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:lines="2"
+        android:hint="Ketik kritik anda disini"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/txtarea_style"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apa saran anda untuk kami?"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/saran_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:lines="2"
+        android:hint="Ketik saran anda disini"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/txtarea_style"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/error_msg"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorErrorFont"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100pt"
+        android:background="@drawable/btn_style1"
+        android:text="Kirim"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_marginTop="20pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2020 FIND ME"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>

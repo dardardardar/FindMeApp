@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".PageHelp4_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana Cara Berdonasi untuk program Find Me"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorFont1"
+                android:textAlignment="center"
+                />
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/btn_style3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berikut ini adalah langkah-langkah berdonasi untuk aplikasi Find Me:"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Silakan buka aplikasi Find Me, aplikasi Find Me bisa diunduh di Playstore dan iOS."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Tekan menu di pojok kiri atas layar aplikasi."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Pilih menu 'Donasi' yang terletak di antara menu testimoni dan umpan balik"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Silakan memilih salah satu metode transfer yang Anda inginkan. Pada halaman donasi terdapat nomor rekening tujuan transfer dan kode unik yang harus dicantumkan pada nominal transfer."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Anda dapat melakukan donasi minimal sebanyak Rp 10.000,00. Setelah Anda melakukan transaksi, Anda dapat mengirimkan bukti transfer ke nomor 0812 9398 3327 melalui WhatsApp atau ke alamat email kami fndme2022@gmail.com. Anda akan menerima notifikasi via sms dan/atau email begitu donasi terverifikasi."
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sampaikan pada kami jika Anda menemukan masalah dalam aplikasi Find Me setelah mengikuti langkah-langkah di atas."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    android:textAlignment="center"
+                    />
+
+                <EditText
+                    android:id="@+id/et_masalah4"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:hint="Ketik deskripsi masalah Anda"
+                    android:background="@drawable/txtarea_style"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/error_msg"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorErrorFont"
+                    android:textAlignment="center"
+                    />
+
+                <Button
+                    android:id="@+id/btn_kirim4"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Kirim"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/btn_style2"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

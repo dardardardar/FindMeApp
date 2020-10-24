@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:paddingLeft="10pt"
+    android:paddingRight="10pt"
+    android:paddingBottom="5pt">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pusat Bantuan"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorFont1"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorFont1"
+        />
+
+    <Button
+        android:id="@+id/help1_btn"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Troubleshoot aplikasi"
+        android:textSize="15dp"
+        android:background="@drawable/btn_style3"
+        />
+
+    <Button
+        android:id="@+id/help2_btn"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan Akun"
+        android:textSize="15dp"
+        android:background="@drawable/btn_style3"
+    />
+
+    <Button
+        android:id="@+id/help3_btn"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Pengumpulan"
+        android:textSize="15dp"
+        android:background="@drawable/btn_style3"
+        />
+
+    <Button
+        android:id="@+id/help4_btn"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Program Donasi"
+        android:textSize="15dp"
+        android:background="@drawable/btn_style3"
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hubungi Kami"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorFont1"
+        />
+
+    <GridLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"
+        android:paddingTop="2pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        >
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/ic_email_black_24dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : fndme2022@gmail.com"
+            android:textSize="18dp"
+            android:textColor="@color/colorFont1"
+            />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/ic_call_black_24dp"
+            />
+
+        <TextView
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telp : 0812 9398 3327"
+            android:textSize="18dp"
+            android:textColor="@color/colorFont1"
+            />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/ic_chat_black_24dp"
+            />
+
+        <TextView
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line : @9920ljqkr"
+            android:textSize="18dp"
+            android:textColor="@color/colorFont1"
+            />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2020 FIND ME"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

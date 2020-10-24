@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".PageLogin_Activity"
+    android:paddingTop="10pt"
+    android:paddingLeft="10pt"
+    android:paddingRight="10pt"
+    android:paddingBottom="3pt"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        />
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/content_box"
+        android:elevation="9dp"
+        >
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MASUK KEDALAM AKUN"
+            android:textColor="@color/colorFont1"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+
+        <GridLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="23dp"
+                android:layout_width="29dp"
+                android:layout_height="35dp"
+                android:src="@drawable/profile1"
+                />
+
+            <EditText
+                android:id="@+id/username_field"
+                android:layout_marginTop="20dp"
+                android:layout_width="199dp"
+                android:layout_height="40dp"
+                android:hint="Username"
+                android:inputType="text"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="7dp"
+                android:background="@drawable/et_style"
+                />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="29dp"
+                android:layout_height="35dp"
+                android:src="@drawable/password"
+                />
+
+            <EditText
+                android:id="@+id/password_field"
+                android:layout_marginTop="20dp"
+                android:layout_width="199dp"
+                android:layout_height="40dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="7dp"
+                android:background="@drawable/et_style"
+                />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/txt_error"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textColor="@color/colorErrorFont"
+            />
+
+        <Button
+            android:id="@+id/btn_login2"
+            android:layout_marginTop="30dp"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Masuk"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btn_style2"
+            android:layout_gravity="center"
+            />
+
+        <GridLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:paddingTop="2pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="1"
+            android:layout_gravity="center"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tidak punya akun?"
+                android:textColor="@color/colorFont1"
+                android:textAlignment="center"
+                />
+            <Button
+                android:id="@+id/btn_txt_regis"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daftar disini!"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont2"
+                android:textAlignment="center"
+                android:background="@color/colorWhite"
+                />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2020 FIND ME"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

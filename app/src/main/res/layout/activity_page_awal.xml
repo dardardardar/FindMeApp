@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".PageAwal_Activity"
+    android:paddingTop="5pt"
+    android:paddingLeft="15pt"
+    android:paddingRight="15pt"
+    android:paddingBottom="3pt"
+    >
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        />
+
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:src="@drawable/line"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="235dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang di"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorFont1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIND ME"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorFont1"
+            />
+
+        <Button
+            android:id="@+id/btn_regis"
+            android:layout_marginTop="130dp"
+            android:layout_width="249dp"
+            android:layout_height="40dp"
+            android:text="Daftar Akun"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_style1"
+            />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_marginTop="40dp"
+            android:layout_width="249dp"
+            android:layout_height="40dp"
+            android:text="Masuk"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_style1"
+            />
+        <TextView
+            android:layout_marginTop="25pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© 2020 FIND ME"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

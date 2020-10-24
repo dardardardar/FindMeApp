@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".PageDaftar_Activity"
+    android:paddingTop="5pt"
+    android:paddingLeft="15pt"
+    android:paddingRight="15pt"
+    android:paddingBottom="3pt"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/content_box"
+        android:elevation="9dp"
+        >
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DAFTAR AKUN BARU"
+            android:textColor="@color/colorFont1"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+
+        <GridLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="6"
+            android:layout_gravity="center"
+            >
+
+            <EditText
+                android:id="@+id/name_field"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:hint="Nama"
+                android:inputType="text"
+                android:paddingLeft="7dp"
+                android:background="@drawable/et_style"
+                />
+
+            <EditText
+                android:id="@+id/username_field"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:hint="Username"
+                android:inputType="text"
+                android:paddingLeft="7dp"
+                android:background="@drawable/et_style"
+                />
+
+            <EditText
+                android:id="@+id/email_field"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="7dp"
+                android:background="@drawable/et_style"
+                />
+
+            <EditText
+                android:id="@+id/password_field2"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="7dp"
+                android:background="@drawable/et_style"
+                />
+
+            <EditText
+                android:id="@+id/cpassword_field"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:hint="Konfirmasi Password"
+                android:inputType="textPassword"
+                android:paddingLeft="7dp"
+                android:background="@drawable/et_style"
+                />
+            <CheckBox
+                android:id="@+id/cb_agreement"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Saya setuju dengan syarat dan ketentuan yang berlaku"
+                android:textSize="12dp"
+
+                />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/txt_error"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textColor="@color/colorErrorFont"
+            />
+
+        <Button
+            android:id="@+id/btn_login2"
+            android:layout_marginTop="10dp"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Daftar"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btn_style2"
+            android:layout_gravity="center"
+            />
+
+        <GridLayout
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="1"
+            android:layout_gravity="center"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun?"
+                android:textColor="@color/colorFont1"
+                android:textAlignment="center"
+                />
+            <Button
+                android:id="@+id/btn_txt_login"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login disini!"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont2"
+                android:textAlignment="center"
+                android:background="@color/colorWhite"
+                />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2020 FIND ME"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

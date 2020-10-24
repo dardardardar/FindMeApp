@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".PageHelp2_Activity"
+    android:padding="20dp">
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tahap-tahap untuk Mengubah Profile"
+                android:textAlignment="center"
+                android:textColor="@color/colorFont1"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_style3"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Anda dapat mengubah email, nomor telepon dan nama sesuai keperluan dengan mengikuti langkah-langkah di bawah ini:"
+                    android:textColor="@color/colorFont1"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="1. Tekan menu di pojok kiri atas layar aplikasi"
+                    android:textColor="@color/colorFont1"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="2. Tekan 'Ubah Profil' di bawah gambar profil dan nama Anda"
+                    android:textColor="@color/colorFont1"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="3. Di halaman Ubah Profil, Anda dapat melakukan perubahan gambar profil, nama, username, email dan password Anda"
+                    android:textColor="@color/colorFont1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Sampaikan pada kami jika Anda menemukan masalah dalam aplikasi Find Me setelah mengikuti langkah-langkah di atas."
+                    android:textAlignment="center"
+                    android:textColor="@color/colorFont1"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/et_masalah2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/txtarea_style"
+                    android:hint="Ketik deskripsi masalah Anda"
+                    android:lines="2"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/error_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorErrorFont"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btn_kirim2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_style2"
+                    android:text="Kirim"
+                    android:textColor="@color/colorWhite"
+                    android:layout_gravity="center"
+                    />
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

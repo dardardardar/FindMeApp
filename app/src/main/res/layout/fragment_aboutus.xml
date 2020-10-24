@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15pt"
+    android:paddingRight="15pt"
+    android:paddingBottom="3pt"
+    android:id="@+id/aboutus_layout"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TENTANG KAMI"
+        android:textAlignment="center"
+        android:textColor="@color/colorFont1"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Find Me adalah aplikasi yang dapat berfungsi sebagai alat untuk membantu kita menemukan keluarga yang keberadaannya tidak diketahui. Misi kami adalah untuk memudahkan masyarakat dan pemerintah untuk memecahkan kasus orang hilang"
+        android:textAlignment="center"
+        android:textColor="@color/colorFont1"
+        android:textSize="20dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/instagram" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/twitter" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/facebook" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23pt"
+        android:text="© 2020 FIND ME"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

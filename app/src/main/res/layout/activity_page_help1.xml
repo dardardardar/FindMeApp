@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".PageHelp1_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aplikasi tidak bisa terbuka, tiba-tiba tertutup atau muncul kode error"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorFont1"
+                android:textAlignment="center"
+                />
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/btn_style3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Meng-install ulang aplikasi atau menghapus 'Cache' aplikasi Find Me umumnya dapat menyelesaikan berbagai bug/masalah aplikasi."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Di handphone Anda, buka menu 'pengaturan/settings', pilih 'Aplikasi Terpasang / Apps', dan pilih 'Find Me', lalu pilih 'Penyimpanan / Memori' kemudian tekan tombol 'Hapus Cache / Clear Cache' (Nama menu dapat berbeda tergantung tipe handpone anda) "
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apabila anda masih mengalami masalah ini, silakan lakukan langkah-langkah berikut terlebih dahulu:"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Solusi 1 : Masuk Mode Pesawat selama 5 menit"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android : Buka menu 'Pengaturan / Settings' di handphone Anda. Pilih menu Nirkabel dan Jaringan, tekan 'Lainnya'. Tekan tombol untuk menyalakan/mematikan Mode Pesawat."
+                    android:textColor="@color/colorFont1"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="iOS : Dari layar Beranda, geser ke atas untuk membuka Pusat Kontrol, tekan logo pesawat hingga berubah menjadi oranye."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Solusi 2 : Periksa Pembaruan Aplikasi"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android : Masuk ke menu Pengaturan, kemudian cari 'Pembaharuan Perangkat' lalu tekan 'Perbarui Manual'. Hal ini akan mencari versi aplikasi terbaru yang tersedia, dan juga memperbarui sistem operasi Android Anda. Buka Google Play dan pilih Aplikasi dan Permainan Saya. Jika pembaruan aplikasi Find Me tersedia, tekan 'Perbarui'."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="iOS : Masuk ke Pengaturan, cari 'umum' lalu tekan 'Pembaruan Perangkat Lunak'. Perbarui iOS Anda sesuai kebutuhan. Buka App Store dan tekan 'Updates'. Jika pembaruan Find Me tersedia, tekan 'Update'."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sampaikan pada kami jika Anda masih menemukan masalah dalam aplikasi Find Me setelah mengikuti langkah-langkah di atas."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    android:textAlignment="center"
+                    />
+
+                <EditText
+                    android:id="@+id/et_masalah1"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:hint="Ketik deskripsi masalah Anda"
+                    android:background="@drawable/txtarea_style"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/error_msg"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorErrorFont"
+                    android:textAlignment="center"
+                    />
+
+                <Button
+                    android:id="@+id/btn_kirim1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Kirim"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/btn_style2"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

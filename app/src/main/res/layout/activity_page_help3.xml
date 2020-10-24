@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".PageHelp3_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tahap-Tahap Mengisi Form"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorFont1"
+                android:textAlignment="center"
+                />
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/btn_style3">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Langkah-langkah mengisi Form LOST / FOUND"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apabila anda ingin mengajukan laporan mengenai Lost/Found, anda dapat mengisi laporan form dengan cara menekan tombol + yang terletak di pojok kanan bawah pada halaman Lost dan halaman Found. Pada halaman Form Laporan tersebut Anda harus mengisi beberapa informasi mengenai orang yang ingin anda laporkan. Anda tidak perlu khawatir mengenai keamanan data pribadi orang tersebut, aplikasi kami telah menyediakan fitur yang dapat menyimpang data-data tersebut dengan baik dan benar. Dalam halaman ini anda diharuskan untuk mengisi semua pertanyaan yang ada mengenai orang yang hilang/ditemukan (seperti nama, tanggal lahir, umur, jenis kelamin, keterangan (ciri-ciri dari orang yang hilang/ditemukan), gambar/foto terbaru) dan no. telepon anda yang aktif dan dapat dihubungi untuk informasi selanjutnya. Setelah itu, anda harus memilih tipe laporan yang anda ingin publikasi. Apabila anda memilih Lost maka laporan anda akan tampil pada halaman Lost, dan apabila anda memilih Found maka laporan anda akan tampil pada halaman Found."
+                    android:textColor="@color/colorFont1"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 : Tahap Mengisi Form Testimoni"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorFont1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dengan melalui aplikasi ini anda dapat menceritakan kisah anda yang menarik dan peristiwa-peristiwa yang berhubungan dengan aplikasi ini. Dalam menceritakan kisah anda, anda dapat memilih halaman testimoni pada menu di pojok kanan atas. Pada halaman testimoni anda dapat menambahkan cerita dengan menekan tombol + di pojok kiri bawah. Dalam halaman ini, anda harus memasukkan judul cerita anda, subjudul dari cerita anda yang bersifat optional (dapat dikosongkan), nama anda (penulis), dan isi dari cerita anda minimal 100 karakter. Setelah anda menekan tombol submit, sistem akan langsung mempublikasikan cerita anda pada halaman Testimoni. Cerita yang paling menarik dan sering dikunjungi akan kami tampilkan pada halaman Home dengan desain banner dari perusahaan kami. Yukk, ceritakan kisah hidup mu semenarik mungkin!!"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    />
+
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sampaikan pada kami jika Anda menemukan masalah dalam aplikasi Find Me setelah mengikuti langkah-langkah di atas."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorFont1"
+                    android:textAlignment="center"
+                    />
+
+                <EditText
+                    android:id="@+id/et_masalah3"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:hint="Ketik deskripsi masalah Anda"
+                    android:background="@drawable/txtarea_style"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/error_msg"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorErrorFont"
+                    android:textAlignment="center"
+                    />
+
+                <Button
+                    android:id="@+id/btn_kirim3"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Kirim"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/btn_style2"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
